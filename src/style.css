@@ -1,0 +1,115 @@
+/* Styles minimalistes et épurés pour le portfolio */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero {
+    background: #0a3d62;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.language-toggle {
+    margin: 20px;
+}
+
+.language-toggle button {
+    background: none;
+    border: 2px solid #0a3d62;
+    color: #0a3d62;
+    padding: 5px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+}
+
+.language-toggle button.active,
+.language-toggle button:hover {
+    background: #0a3d62;
+    color: white;
+}
+
+.centered-section {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+section {
+    background: white;
+    padding: 30px 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #0a3d62;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background: #e3f2fd;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 0.9rem;
+    color: #0a3d62;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+}
+
+#contact p {
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #0a3d62;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+.language-select {
+    position: relative;
+}
+
+.language-select select {
+    padding: 8px 12px;
+    border: 2px solid #0a3d62;
+    border-radius: 5px;
+    background: #fff;
+    color: #0a3d62;
+    font-size: 16px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.language-select select:hover {
+    border-color: #3b6978;
+}
